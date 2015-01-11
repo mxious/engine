@@ -39,7 +39,7 @@ try {
 }
 
 # Start Idiorm ORM Configuration
-ORM::configure('mysql:host='.Constants::DATABASE['dbname'].';dbname='.Constants::DATABASE['dbname']);
+ORM::configure('mysql:host='.Constants::DATABASE['host'].';dbname='.Constants::DATABASE['dbname']);
 ORM::configure('username', Constants::DATABASE['username']);
 ORM::configure('password', Constants::DATABASE['password']);
 
