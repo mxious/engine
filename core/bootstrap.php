@@ -11,6 +11,8 @@
  * 
  */
 
+namespace Mxious;
+
 # Require necessary classes
 require("config/constants.php");
 require("config/database.php");
