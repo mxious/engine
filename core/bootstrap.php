@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 /**
  * Mxious Bootstrapper
@@ -13,26 +14,26 @@
 
 try {
 	# Require necessary classes.
-	if (!@require("config/constants.php")) {
-		throw new Exception("Constants file not found.");
-	}
-	if (!@require("../vendor/libraries/idiorm.php")) {
-		throw new Exception("Idiorm ORM not found.");	
-	}
+	require("/core/configs/constants.php");
+	require("/vendor/libraries/idiorm.php");
+	
 
 	switch (Constants::SITE_MODE) {
 		case 'development':
 			error_reporting(E_ALL);
+			ini_set('display_errors', '1');
 			break;
 		
 		case 'production':
 			error_reporting(0);
+			ini_set('display_errors', '0');
 			break;
 
 		default:
 			throw new Exception("Site mode is not set.");
 			break;	
 	}
+	
 } catch(Exception $e) {
 	echo $e->getMessage();
 	die("Could not start the MxiousEngine.");
@@ -42,11 +43,6 @@ try {
 ORM::configure('mysql:host='.Constants::DATABASE_HOST.';dbname='.Constants::DATABASE_NAME);
 ORM::configure('username', Constants::DATABASE_USER);
 ORM::configure('password', Constants::DATABASE_PASSWORD);
-
-# Create a session.
-session_start();
-
-$_SESSION['test'] = 'hp';
 
 /*
 

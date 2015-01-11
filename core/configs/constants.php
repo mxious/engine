@@ -15,6 +15,9 @@ class Constants {
 
 	// The site's url. Start this with http:// prefix and trailing slash.
 	const BASE_URL = "http://example.com/";
+	
+	const VENDOR_FOLDER = 'vendor';
+	const CORE_FOLDER = 'core';
 
 	// This program has CDN support. If you use a CDN, place the URL to the CDN here, and USE_CDN to true.
 	const USE_CDN = false;

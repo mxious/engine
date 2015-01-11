@@ -1,4 +1,4 @@
 <?php
 require("core/bootstrap.php");
 
-echo $_SESSION['test'];
+echo "MxiousEngine is working. ";
