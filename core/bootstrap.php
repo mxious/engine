@@ -39,9 +39,9 @@ try {
 }
 
 # Start Idiorm ORM Configuration
-ORM::configure('mysql:host='.Constants::DATABASE['host'].';dbname='.Constants::DATABASE['dbname']);
-ORM::configure('username', Constants::DATABASE['username']);
-ORM::configure('password', Constants::DATABASE['password']);
+ORM::configure('mysql:host='.Constants::DATABASE_HOST.';dbname='.Constants::DATABASE_NAME);
+ORM::configure('username', Constants::DATABASE_USER);
+ORM::configure('password', Constants::DATABASE_PASSWORD);
 
 # Create a session.
 session_start();
