@@ -5,17 +5,17 @@ Mxious is a social music discovery engine.
 
 Before contributing
 ====================
-Before contributing, please read the Contributing standards found in
-https://github.com/Alphasquare/Mxious/wiki/Code-Quality-&-Formatting-Guide.
-We don't accept any pull requests/commits that do not comply with these standards. 
-Failure to comply with these standards multiple times may cause:
-	1. Rejection of your pull request
-	2. Reverts of commits 
-	3. Thermonuclear war
-	4. Removal of Contributors team
-	5. Rejection of repository permissions.
-
-Please try to comply. 
+Before contributing, please read the Contributing standards found in  
+https://github.com/Alphasquare/Mxious/wiki/Code-Quality-&-Formatting-Guide.  
+We don't accept any pull requests/commits that do not comply with these standards.   
+Failure to comply with these standards multiple times may cause:  
+	1. Rejection of your pull request   
+	2. Reverts of commits   
+	3. Thermonuclear war  
+	4. Removal of Contributors team  
+	5. Rejection of repository permissions.  
+  
+Please try to comply.   
 
 
 Build status
