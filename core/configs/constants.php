@@ -34,11 +34,11 @@ class Constants {
 	// const TWITTER_APIKEY = "apikey1234";
 
 	// Database constant. Fill this out to use the Idiorm ORM (required)
-	const DATABASE = [
+	const DATABASE = array(
 		'db_name' => 'mxious',
 		'username' => 'root',
 		'password' => '',
 		'host' => 'localhost'
-	];
+	);
 }
 

@@ -11,7 +11,6 @@
  * 
  */
 
-<<<<<<< HEAD
 try {
 	# Require necessary classes.
 	if (!@require("config/constants.php")) {
@@ -25,26 +24,6 @@ try {
 		case 'development':
 			error_reporting(E_ALL);
 			break;
-=======
-namespace Mxious;
-
-# Require necessary classes
-require("config/constants.php");
-require("config/database.php");
-
-switch (Mxious_Defines::SITE_MODE) {
-	case 'development':
-		error_reporting(E_ALL);
-		break;
-	
-	case 'production':
-		error_reporting(0);
-		break;
-
-	default:
-		throw new Exception("Site mode is not set. Falling back to development.");
-		break;
->>>>>>> 5de079b0c754a5d2be035f79eb5a050c8bd8842e
 		
 		case 'production':
 			error_reporting(0);
@@ -63,6 +42,11 @@ switch (Mxious_Defines::SITE_MODE) {
 ORM::configure('mysql:host='.Constants::DATABASE['dbname'].';dbname='.Constants::DATABASE['dbname']);
 ORM::configure('username', Constants::DATABASE['username']);
 ORM::configure('password', Constants::DATABASE['password']);
+
+# Create a session.
+session_start();
+
+$_SESSION['test'] = 'hp';
 
 /*
 
