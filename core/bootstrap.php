@@ -16,6 +16,7 @@ try {
 	# Require necessary classes.
 	require("/core/configs/constants.php");
 	require("/vendor/libraries/idiorm.php");
+	require("/core/libraries/views.php");
 	
 
 	switch (Constants::SITE_MODE) {
