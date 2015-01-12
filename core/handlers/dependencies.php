@@ -14,7 +14,7 @@
 class DependencyHandler {
 	static function load_dep_init() {
 		require("/core/configs/constants.php");
-		require("/vendor/liaries/idiorm.php");
+		require("/vendor/libraries/idiorm.php");
 		require("/core/libraries/views.php");
 	}
 }
