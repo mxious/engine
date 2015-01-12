@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<phpunit colors="true">
-    <testsuites>
-        <testsuite name="Application Test Suite">
-            <directory suffix="BootstrapperTest.php">./Tests</directory>
-        </testsuite>
-    </testsuites>
+<phpunit bootstrap="core/bootstrap.php">
+  <testsuites>
+    <testsuite name="Mxious">
+      <file>Tests/TestBootstrapper.php</file>
+    </testsuite>
+  </testsuites>
 </phpunit>
