@@ -13,10 +13,13 @@ session_start();
  */
 
 try {
+
+	# Load DepHandler once
+	require('/core/handlers/dependencies.php');
+
 	# Require necessary classes.
-	require("/core/configs/constants.php");
-	require("/vendor/libraries/idiorm.php");
-	require("/core/libraries/views.php");
+	$DH = New DependencyHandler;
+	$DH::load_dep_init();
 	
 
 	switch (Constants::SITE_MODE) {
