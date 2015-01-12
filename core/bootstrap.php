@@ -15,7 +15,7 @@ session_start();
 try {
 
 	# Load DepHandler once
-	require('/core/handlers/dependencies.php');
+	require('handlers/dependencies.php');
 
 	# Require necessary classes.
 	$DH = New DependencyHandler;
