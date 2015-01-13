@@ -1,7 +1,0 @@
-<phpunit bootstrap="core/bootstrap.php">
-  <testsuites>
-    <testsuite name="Mxious">
-      <file>Tests/TestBootstrapper.php</file>
-    </testsuite>
-  </testsuites>
-</phpunit>
