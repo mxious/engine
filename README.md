@@ -1,7 +1,7 @@
 Welcome to Mxious
 =================
 
-Mxious is a social music discovery engine.
+Mxious is a social music discovery engine. 
 
 Before contributing
 ====================
