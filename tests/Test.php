@@ -1,5 +1,5 @@
 <?php
-require_once '../vendor/Slim/vendor/autoload.php';
+require_once '../vendor/Slim/Slim.php';
 
 use Slim\Environment;
 
