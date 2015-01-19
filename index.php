@@ -1,7 +1,14 @@
 <?php
 session_start();
 
+// Require vendor files
 require('vendor/Slim/Slim.php');
+/* Upcoming Idiorm ORM
+require('vendor/Slim/Slim.php');
+*/
+require('vendor/Signature/includes.php');
+
+// Require Core files
 require("app/libraries/apiutils.php");
 require("app/configs/constants.php");
 
