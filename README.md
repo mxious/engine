@@ -1,4 +1,4 @@
-Welcome to Mxious
+Welcome to Mxious.
 =================
 
 Mxious is a social music discovery engine.
