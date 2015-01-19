@@ -23,6 +23,11 @@ Build status
 ===============
 Not a single line of code is here yet so no builds yet.
 
+Conflicts
+===============
+Currently there is an ongoing conflict with any Auth class installed from PEAR. Most XAMPP installations come with this by default, therefore causing exceptions. Please remove this library, in the Linux case the path to the file is /opt/lampp/lib/php/Auth.php. Using root privileges delete the whole file, preferably erase it's contents.
+
+
 Social
 ===============
 Check out the website `alphasquare.us` for social discussion of Mxious.
