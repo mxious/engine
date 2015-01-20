@@ -12,14 +12,9 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="Slim Test Suite">
+        <testsuite name="Mxious Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 
-    <filter>
-        <whitelist>
-            <directory>./Slim/</directory>
-        </whitelist>
-    </filter>
 </phpunit>
