@@ -1,9 +1,19 @@
 {
- "require": {
+    "name": "alphasquare/mxious-src",
+    "description": "Mxious source files.",
+    "require": {
         "jeremykendall/query-auth": "*",
         "slim/slim": "2.*"
-  },
- "config": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio",
+            "email": "sergiomattei@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+     "config": {
         "vendor-dir": "src/vendor"
     }
 }
