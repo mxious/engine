@@ -7,3 +7,5 @@ php:
   - hhvm
 
 script: phpunit
+
+composer install
