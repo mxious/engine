@@ -7,9 +7,9 @@ Mxious is a social music discovery engine.
 Installing
 ==========
 To install an instance of Mxious, via Terminal, do:
-`cd project-path`
+	cd project-path
 Then,
-`composer install`
+	composer install
 
 It will automatically find, download, and update dependencies. 
 Before contributing
