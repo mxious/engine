@@ -1,14 +1,23 @@
 <?php
-/**
- * Mxious Defines File
- * 
- * This is your main defines file. Please fill out the following defines for proper functioning of the Mxious source.
- * 
- * @author Alphapixels
- * @category Config files
- * @version 0.0.1pre-alpha
- * 
- */
+
+/**          
+*     _ __ ___ __  __  
+*    | '_ ` _ \\ \/ /  
+*    | | | | | |>  < _ 
+*    |_| |_| |_/_/\_(_)
+*    ------------------
+*    
+* http://github.com/Alphasquare/Mxious
+* http://alphasquare.us/
+*                  
+* @author Crunch D&D Team
+* @license MIT License
+* @copyright Alphasquare
+* @package Core
+* @version 0.0.3-prealpha
+*
+*/
+
 class Constants {
 
 	// The site's url. Start this with http:// prefix and trailing slash.

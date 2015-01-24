@@ -1,5 +1,23 @@
 <?php
 
+/**          
+*     _ __ ___ __  __  
+*    | '_ ` _ \\ \/ /  
+*    | | | | | |>  < _ 
+*    |_| |_| |_/_/\_(_)
+*    ------------------
+*    
+* http://github.com/Alphasquare/Mxious
+* http://alphasquare.us/
+*                  
+* @author Crunch D&D Team
+* @license MIT License
+* @copyright Alphasquare
+* @package Core
+* @version 0.0.3-prealpha
+*
+*/
+
 use QueryAuth\Credentials\Credentials;
 use QueryAuth\Factory;
 use QueryAuth\Request\Adapter\Incoming\SlimRequestAdapter;
