@@ -1,6 +1,25 @@
 <?php
 session_start();
 
+/**          
+*     _ __ ___ __  __  
+*    | '_ ` _ \\ \/ /  
+*    | | | | | |>  < _ 
+*    |_| |_| |_/_/\_(_)
+*    ------------------
+*    
+* http://github.com/Alphasquare/Mxious
+* http://alphasquare.us/
+*                  
+* @author Crunch D&D Team
+* @license MIT License
+* @copyright Alphasquare
+* @package Core
+* @version 0.0.3-prealpha
+*
+*/
+
+
 # Require core files
 require('vendor/autoload.php');
 require("app/libraries/apiutils.php");
