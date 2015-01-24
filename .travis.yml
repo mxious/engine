@@ -1,5 +1,5 @@
 language: php
-
+install: composer install
 php:
   - 5.4
   - 5.5
@@ -7,5 +7,3 @@ php:
   - hhvm
 
 script: phpunit
-
-composer install
