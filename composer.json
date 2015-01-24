@@ -1,0 +1,9 @@
+{
+ "require": {
+        "jeremykendall/query-auth": "*",
+        "slim/slim": "2.*"
+  },
+ "config": {
+        "vendor-dir": "src/vendor"
+    }
+}

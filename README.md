@@ -1,4 +1,4 @@
-Welcome to Mxious [![Build Status](https://travis-ci.org/Alphasquare/Mxious-src.svg?branch=development)](https://travis-ci.org/Alphasquare/Mxious-src)  [![Code Climate](https://codeclimate.com/github/Alphasquare/Mxious-src/badges/gpa.svg)](https://codeclimate.com/github/Alphasquare/Mxious-src)
+Welcome to Mxious
 =================
 
 Mxious is a social music discovery engine.
@@ -21,7 +21,7 @@ Please try to comply.
 
 Build status
 ===============
-[![Build Status](https://travis-ci.org/Alphasquare/Mxious-src.svg?branch=development)](https://travis-ci.org/Alphasquare/Mxious-src)[![Code Climate](https://codeclimate.com/github/Alphasquare/Mxious-src/badges/gpa.svg)](https://codeclimate.com/github/Alphasquare/Mxious-src)
+Not a single line of code is here yet so no builds yet.
 
 Social
 ===============
