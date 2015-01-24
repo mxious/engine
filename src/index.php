@@ -1,24 +1,6 @@
 <?php
 session_start();
 
-/**          
-*     _ __ ___ __  __  
-*    | '_ ` _ \\ \/ /  
-*    | | | | | |>  < _ 
-*    |_| |_| |_/_/\_(_)
-*    ------------------
-*    
-* http://github.com/Alphasquare/Mxious
-* http://alphasquare.us/
-*                  
-* @author Crunch D&D Team
-* @license MIT License
-* @copyright Alphasquare
-* @package Core
-* @version 0.0.3-prealpha
-*
-*/
-
 # Require core files
 require('vendor/autoload.php');
 require("app/libraries/apiutils.php");
@@ -46,8 +28,11 @@ $request = $app->request;
 
 # Catch issues in validation. Ignore them, else the app will die, this isn't done yet.
 try {
-    $isValid = $requestValidator->isValid(new SlimRequestAdapter($request), $credentials);
-} catch (Exception $e) {}
+	$check = $requestValidator->isValid(new SlimRequestAdapter($request), $credentials);
+} catch (Exception $e) {
+	http_response_code(401);
+	die("HTTP/1.1 401 Unauthorized");
+}
 
 # Start routes!
 require('app/assets/routes.php'); 
