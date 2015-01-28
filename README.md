@@ -8,7 +8,7 @@ Installing
 ==========
 To install an instance of Mxious, via Terminal, do
 
-    cd project-path`
+    cd project-path
 Then,
 
     composer install
