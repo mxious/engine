@@ -1,0 +1,219 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1edd358bb67eaee4bc6ef9fb18da9812",
+    "packages": [
+        {
+            "name": "ircmaxell/random-lib",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/RandomLib.git",
+                "reference": "0eaad991c1756842f26dfbcbc6effcabb5003d0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/RandomLib/zipball/0eaad991c1756842f26dfbcbc6effcabb5003d0a",
+                "reference": "0eaad991c1756842f26dfbcbc6effcabb5003d0a",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/security-lib": "1.0.*@dev",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "RandomLib": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@ircmaxell.com",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A Library For Generating Secure Random Numbers",
+            "homepage": "https://github.com/ircmaxell/PHP-RandomLib",
+            "keywords": [
+                "cryptography",
+                "random",
+                "random-numbers",
+                "random-strings"
+            ],
+            "time": "2013-07-30 17:40:57"
+        },
+        {
+            "name": "ircmaxell/security-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/SecurityLib.git",
+                "reference": "2d851958532b2fb9038d9a5700ff8792037f6a06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/SecurityLib/zipball/2d851958532b2fb9038d9a5700ff8792037f6a06",
+                "reference": "2d851958532b2fb9038d9a5700ff8792037f6a06",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "SecurityLib": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@ircmaxell.com",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A Base Security Library",
+            "homepage": "https://github.com/ircmaxell/SecurityLib",
+            "time": "2014-11-05 21:17:49"
+        },
+        {
+            "name": "jeremykendall/query-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeremykendall/query-auth.git",
+                "reference": "d0cd49d446c17627fc0360be75f1a63ae519ccc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeremykendall/query-auth/zipball/d0cd49d446c17627fc0360be75f1a63ae519ccc4",
+                "reference": "d0cd49d446c17627fc0360be75f1a63ae519ccc4",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/random-lib": "v1.0.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "guzzle/guzzle": ">=3.7.0,<=3.9.9",
+                "guzzlehttp/guzzle": "~4",
+                "mockery/mockery": "0.9.2",
+                "phpunit/phpunit": "4.*",
+                "slim/slim": "2.*"
+            },
+            "suggest": {
+                "guzzle/guzzle": "To use the Guzzle v3 outgoing request adapter",
+                "guzzlehttp/guzzle": "To use the Guzzle v4 outgoing request adapter",
+                "slim/slim": "To use the Slim v2 incoming request adapter"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "QueryAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Kendall",
+                    "homepage": "http://about.me/jeremykendall",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Signature generation and validation for REST API query authentication",
+            "keywords": [
+                "Authentication",
+                "api",
+                "query authentication",
+                "rest"
+            ],
+            "time": "2014-10-06 20:52:55"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim.git",
+                "reference": "04958a10ed95bc7bc97568e573877d4f9b62db48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/04958a10ed95bc7bc97568e573877d4f9b62db48",
+                "reference": "04958a10ed95bc7bc97568e573877d4f9b62db48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2014-12-09 19:59:29"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
