@@ -22,6 +22,12 @@ class Constants {
 
 	// The site's url. Start this with http:// prefix and trailing slash.
 	const BASE_URL = "http://localhost/";
+
+	// Your YouTube API key.
+	const API_KEY_YT = "apikey1234";
+
+	// Authentication. If set to true, requests require authentication with key-secret-signature.
+	const AUTHENTICATION = false;
 	
 	// This program has CDN support. If you use a CDN, place the URL to the CDN here, and USE_CDN to true.
 	const USE_CDN = false;
@@ -44,6 +50,7 @@ class Constants {
 	// const TWITTER_APIKEY = "apikey1234";
 
 	// Database constant. Fill this out to use the Idiorm ORM (required)
+
 	const DATABASE_NAME = "mxious";
 	const DATABASE_USER = "root";
 	const DATABASE_PASSWORD = "";

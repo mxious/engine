@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 /**          
 *     _ __ ___ __  __  
 *    | '_ ` _ \\ \/ /  
@@ -31,11 +29,19 @@ header('Content-Type: application/json');
 $app = new \Slim\Slim();
 $utils = new ApiUtils;
 
-require("app/middleware/Auth.php");
-$app->add(new AuthMiddleware);
+
+// Authentication. If set to true, all requests REQUIRE an API signature. 
+// Disable this for development environments.
+if (Constants::AUTHENTICATION) {
+	require("app/middleware/Auth.php");
+	$app->add(new AuthMiddleware);
+}
 
 # Debug mode on.
 $app->config("debug", true);
+
+use Madcoda\Youtube;
+$youtube = new Youtube(array('key' => Constants::API_KEY_YT));
 
 # Start routes!
 require('app/assets/routes.php'); 
