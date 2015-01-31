@@ -3,7 +3,10 @@
     "description": "Mxious source files.",
     "require": {
         "jeremykendall/query-auth": "*",
-        "slim/slim": "2.*"
+        "slim/slim": "2.*",
+        "madcoda/php-youtube-api": "*",
+        "j4mie/idiorm": "*"
+
     },
     "license": "MIT",
     "authors": [
