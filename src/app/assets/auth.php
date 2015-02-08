@@ -18,6 +18,8 @@
 *
 */
 
+if (!defined('FILE_VERIFICATION')) die("Direct script access not allowed");
+
 use QueryAuth\Credentials\Credentials;
 use QueryAuth\Factory;
 use QueryAuth\Request\Adapter\Incoming\SlimRequestAdapter;

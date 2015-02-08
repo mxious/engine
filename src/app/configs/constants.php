@@ -23,9 +23,6 @@ class Constants {
 	// The site's url. Start this with http:// prefix and trailing slash.
 	const BASE_URL = "http://localhost/";
 
-	// Your YouTube API key.
-	const API_KEY_YT = "apikey1234";
-
 	// Authentication. If set to true, requests require authentication with key-secret-signature.
 	const AUTHENTICATION = false;
 	
