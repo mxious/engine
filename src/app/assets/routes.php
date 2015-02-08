@@ -14,7 +14,7 @@
 * @license MIT License
 * @copyright Alphasquare
 * @package Core
-* @version 0.0.3-prealpha
+* @version 0.0.4-prealpha
 *
 */
 
@@ -103,10 +103,6 @@ $app->post('/song/add', function () use ($utils, $app) {
 		$song = ORM::for_table('songs')->create();
 		$song->name = $post['name'];
 	}
-});
-
-$app->get('/aql/:query', function ($query) use ($utils, $app) {
-	// Custom Alphasquare Query Language implementation
 });
 
 $app->get('/search/:query', function ($query) use ($utils, $app) {

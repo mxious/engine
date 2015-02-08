@@ -13,7 +13,7 @@
 * @license MIT License
 * @copyright Alphasquare
 * @package Core
-* @version 0.0.3-prealpha
+* @version 0.0.4-prealpha
 *
 */
 
@@ -50,9 +50,6 @@ ORM::configure([
 
 # Debug mode on.
 $app->config("debug", true);
-
-use Madcoda\Youtube;
-$youtube = new Youtube(array('key' => Constants::API_KEY_YT));
 
 # Start routes!
 require('app/assets/routes.php'); 
