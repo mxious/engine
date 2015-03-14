@@ -192,7 +192,7 @@ if (defined('ENVIRONMENT'))
 	}
 
 /* Load Composer Dependencies (little hackish, I know) */
-include("vendor/autoload.php");
+// include("vendor/autoload.php");
 
 
 /*
