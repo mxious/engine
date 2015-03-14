@@ -11,7 +11,7 @@
 	$('#layout').masonry({
   "itemSelector": '.item-masonry',
   "columnWidth": 250,
-  "gutter": 10,
+  "gutter": 20,
   "isFitWidth": true
 });
 
