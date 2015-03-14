@@ -1,0 +1,18 @@
+The web development "cool kids table"
+
+Many developers absolutely despise languages like PHP for no reason whatsoever, however
+every language has its flaws. Recently due to the popularity of other languages for development,
+a social phenomenon has been taking place in the programming world and I call it...
+The "high school cool kids table".
+
+Many people hate PHP just because they follow the current and do what they hear from others who
+have heard the same thing from the "cool kids in development". However, PHP is a great language
+to get started in web development. It has its flaws, like any other language, but it definitely makes
+work so much simpler. For example, things that might take you dozens of lines in languages like Python,
+are most probably built in functions already. In fact, there's a motto already in the community:
+"If you can think of it, it's probably already in PHP". This is great, however for the people who don't like
+bloat it can sound awful. That is one downside of PHP, there are too many functions for different things. Also,
+their naming conventions are pretty bad, you can find functions in camel-case and underscores all the time. 
+
+Resuming, most of the hate on PHP is usually caused by the phenomenon I call "the cool kids table". People like
+fitting in. People like feeling comfortable. And that's how the group hate starts.
