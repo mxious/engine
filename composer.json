@@ -2,8 +2,6 @@
     "name": "alphasquare/mxious-src",
     "description": "Mxious source files.",
     "require": {
-        "jeremykendall/query-auth": "*",
-        "guzzlehttp/guzzle": "*"  
     },
     "license": "MIT",
     "authors": [
